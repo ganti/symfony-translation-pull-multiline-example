@@ -1,7 +1,10 @@
 foo:
-    bar: >-
+    bar: |
+        line1
+        line2
+        line3
+    apples: >-
         {count, plural,
-            =1    {# foo}
-            other {# foos}
+            =1    {# apple}
+            other {# apples}
         }
-    foo: 'foo'
