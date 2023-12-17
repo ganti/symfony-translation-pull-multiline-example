@@ -1,0 +1,7 @@
+foo:
+    bar: >-
+        {count, plural,
+            =1    {# foo}
+            other {# foos}
+        }
+    foo: 'foo'
